@@ -12,18 +12,18 @@ export function CountCard () {
       </div>
       <div>
         <img src="" alt=""/>
-        <h2>40+</h2>
+        <h2>100+</h2>
         <h4>Projetos concluidos</h4>
       </div>
       <div>
         <img src="" alt=""/>
-        <h2>40+</h2>
-        <h4>Horas satisfeitos</h4>
+        <h2>2100+</h2>
+        <h4>Horas de trabalho</h4>
       </div>
       <div>
         <img src="" alt=""/>
-        <h2>40+</h2>
-        <h4>Clientes satisfeitos</h4>
+        <h2>12+</h2>
+        <h4>Anos de excelência</h4>
       </div>
     </div>
   </section>

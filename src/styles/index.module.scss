@@ -16,9 +16,28 @@
 
   p{
     line-height: 2rem;
+    text-align: justify;
   }
 
   h1{
+    margin-bottom: 2rem;
     line-height: 6.125rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero{
+
+    background-position-x: 40%;
+    p, h1{
+      max-width: 90%;
+    }
+    h1{
+      font-size: 3.25rem;
+      line-height: 5.125rem;
+    }
+    p{
+      line-height: 1.5rem;
+    }
   }
 }

@@ -91,3 +91,10 @@
     }
   }
 }
+
+@media (max-width: 827px){
+  .discover{
+    flex-direction: column;
+    align-items: center;
+  }
+}

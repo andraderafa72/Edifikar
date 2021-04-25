@@ -9,13 +9,47 @@
     gap: 5rem;
     border-radius: 1rem;
     background: url('/contactBg.svg'), linear-gradient(rgba(245, 143, 48, 1), rgba(245, 143, 48, 1));
-    background-position-x: 150%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     h1{
       color: var(--white);
       width: 50%;
       text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.16);
+    }
+  }
+}
+
+@media (max-width: 1369px){
+  .contact{
+    .contactCard{
+      h1{
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1080px){
+  .contact{
+    .contactCard{
+      img{
+        max-width: 10rem;
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .contact{
+    .contactCard{
+      height: 35rem;
+      flex-direction: column;
+      h1{
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }
