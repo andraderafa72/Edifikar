@@ -1,0 +1,21 @@
+.contact{
+  padding: 0 10%;
+  margin: 15rem 0 7.5rem;
+  .contactCard{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    border-radius: 1rem;
+    background: url('/contactBg.svg'), linear-gradient(rgba(245, 143, 48, 1), rgba(245, 143, 48, 1));
+    background-position-x: 150%;
+    background-repeat: no-repeat;
+
+    h1{
+      color: var(--white);
+      width: 50%;
+      text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.16);
+    }
+  }
+}

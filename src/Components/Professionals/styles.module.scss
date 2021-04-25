@@ -1,0 +1,39 @@
+.professionals{
+  margin-top: 12.5rem;
+  display: flex;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 4rem;
+
+  .professional{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .circle{
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      background-color: #F58F30;
+      opacity: .3;
+      width: 22.75rem;
+      height: 22.75rem;
+      border-radius: 100%;
+      z-index: -1;
+    }
+
+    img{
+      flex: 1;
+      max-width: 15.75rem;
+    }
+    h3{
+      margin-top: 1.875rem;
+    }
+
+    p{margin-top: 2rem; max-width: 30rem; line-height: 160%; text-align: justify;}
+  }
+}
