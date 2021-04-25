@@ -1,0 +1,52 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  background: transparent;
+  justify-content: space-between;
+
+  ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+
+    li{
+
+      a{
+        position: relative;
+        padding: 1rem;
+        font-size: 1.25rem;
+        font-family: Manrope, sans-serif;
+        font-weight: 400;
+        letter-spacing: .05rem;
+        text-decoration: none;
+        color: var(--white);
+        transition: .7s ease;
+
+        &::after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: .2rem;
+          width: 0;
+          background: var(--orange);
+          transition: .7s ease;
+        }
+
+        &:hover{
+          color: var(--orange);
+
+          &::after{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.hero{
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url('/hero.jpg');
+  object-fit: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0 10%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  p, h1{
+    color: var(--white);
+    max-width: 50%;
+  }
+
+  p{
+    line-height: 2rem;
+  }
+
+  h1{
+    line-height: 6.125rem;
+  }
+}
+
+.countCard{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+
+  .ccBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--orange);
+    z-index: -1;
+  }
+
+  .countCardDiv{
+    width: 100%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,.16);
+    display: flex;
+    justify-content: space-around;
+
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2{
+        font-size: 4rem;
+        color: var(--orange);
+      }
+    }
+  }
+}

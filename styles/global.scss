@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+:root {
+  --white: #F3F5FF;
+
+  // --gray-50: #F7F8FA;
+  // --gray-100: #E6E8EB;
+  // --gray-200: #AFB2B1;
+  --gray-light: #808080;
+  --gray: #494D4B;
+
+  --green-500: #04D361;
+
+  --orange: #F58F30;
+  --purple-400: #9164FA;
+  --purple-500: #8257E5;
+  --purple-800: #6F48C9;
+}
+
+@media (max-width: 1080px) {
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 1880px) {
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body, input, textarea, button{
+  font: 500 1rem Manrope, sans-serif;
+  color: var(--gray-light);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Manrope, sans-serif;
+  color: var(--gray);
+}
+
+h1{
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h3{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h5{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 1.125rem;
+}
+
+button{
+  cursor: pointer;
+}
