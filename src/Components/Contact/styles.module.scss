@@ -8,7 +8,7 @@
     justify-content: center;
     gap: 5rem;
     border-radius: 1rem;
-    background: url('/contactBg.svg'), linear-gradient(rgba(245, 143, 48, 1), rgba(245, 143, 48, 1));
+    background: url('/contactBg.svg'), linear-gradient(var(--orange), var(--orange));
     background-position-x: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;

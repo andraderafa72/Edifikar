@@ -26,8 +26,8 @@ export function Header () {
         </li>
       </ul>
 
-      <Burger className={styles.burgerMenu} isOpen={!isBurgerOpen} onClick={() => setIsBurgerOpen(!isBurgerOpen)}/>
-        <div className={isBurgerOpen ? styles.menu : styles.menuOpen}>
+      <Burger className={styles.burgerMenu} isOpen={isBurgerOpen} onClick={() => setIsBurgerOpen(!isBurgerOpen)}/>
+        <div className={!isBurgerOpen ? styles.menu : styles.menuOpen}>
           <div className={styles.bgMenu}></div>
           <ul className={styles.links}>
             <li>

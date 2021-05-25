@@ -15,7 +15,7 @@
     right: 1rem;
     min-width: 45rem;
     min-height: 45rem;
-    background-color: #F58F30;
+    background-color: var(--orange);
     border-radius: 100%;
     z-index: -1;
     opacity: .30;
@@ -75,12 +75,12 @@
 
     &:hover{
       &::after{
-        bottom: -7%;
-        right: -7%;
+        bottom: -6.5%;
+        right: -6.5%;
       }
       &::before{
-        top: -7%;
-        left: -7%;
+        top: -6.5%;
+        left: -6.5%;
       }
     }
 

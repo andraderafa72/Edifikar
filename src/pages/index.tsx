@@ -9,7 +9,7 @@ export default function Home(props) {
   return (
     <>
       <div className={styles.hero}>
-        <h1>Faça seu serviço com a E2 Engenharia!</h1>
+        <h1>Faça seu serviço com a Edifikar!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, natus? Ullam incidunt nemo deleniti! Et vitae ratione nesciunt aliquid quis laboriosam perferendis nisi, hic iusto perspiciatis sunt dolores suscipit distinctio.</p>
       </div>
     <main className={styles.container}>
