@@ -29,3 +29,9 @@
     height: 2rem;
   }
 }
+
+@media (max-width: 500px) {
+  .wppButton{
+    right: 1rem;
+  }
+}
