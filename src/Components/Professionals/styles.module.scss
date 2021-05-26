@@ -8,6 +8,7 @@
   margin-bottom: 4rem;
 
   .professional{
+    // max-width: 48%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -34,5 +35,20 @@
     }
 
     p{margin-top: 2rem; max-width: 30rem; line-height: 160%; text-align: justify;}
+  }
+}
+
+@media (max-width:1080px) {
+  .professionals{
+    .professional{
+      max-width: 90%;
+      h3{
+        font-size: 2rem;
+      }
+      .circle{
+        top: 9%;
+        left: 3%;
+      }
+    }
   }
 }
