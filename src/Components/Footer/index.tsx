@@ -8,16 +8,16 @@ export function Footer () {
 
           <ul>
             <li>
-              <a href="">Sobre nós</a>
+              <a href="#professionals">Sobre nós</a>
             </li>
             <li>
-              <a href="">Serviços</a>
+              <a href="#services">Serviços</a>
             </li>
             <li>
               <a href="">Nosso trabalho</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
       </section>
@@ -26,8 +26,8 @@ export function Footer () {
         <span>© 2021 Edifikar. All rights reserved</span>
         <ul>
           <li>
-            <a href="">
-              <img src="" alt=""/>
+            <a href="https://wa.me/5584996220052">
+              <img src="/whatsapp.svg" alt=""/>
             </a>
           </li>
           <li>

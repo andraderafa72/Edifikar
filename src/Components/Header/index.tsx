@@ -13,7 +13,7 @@ export function Header () {
 
       <ul>
         <li>
-          <a href="">Sobre nós</a>
+          <a href="#professionals">Sobre nós</a>
           </li>
         <li>
           <a href="#services">Serviços</a>
@@ -22,7 +22,7 @@ export function Header () {
           <a href="">Nosso trabalho</a>
         </li>
         <li>
-          <a href="">Contato</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
 
@@ -31,16 +31,16 @@ export function Header () {
           <div className={styles.bgMenu}></div>
           <ul className={styles.links}>
             <li>
-              <a href="">Sobre nós</a>
+              <a href="#professionals">Sobre nós</a>
               </li>
             <li>
-              <a href="">Serviços</a>
+              <a href="#services">Serviços</a>
             </li>
             <li>
               <a href="">Nosso trabalho</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
 

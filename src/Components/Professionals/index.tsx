@@ -2,11 +2,11 @@ import styles from './styles.module.scss';
 
 export function Professionals () {
   return (
-    <section className={styles.professionals}>
+    <section className={styles.professionals} id="professionals">
       <div className={styles.professional}>
         <div className={styles.circle}></div>
         <img src="/Person.png" alt=""/>
-        <h3>Profissional</h3>
+        <h3>Alessander  Mirapalheta</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur corrupti unde, porro expedita ipsum natus illum. Ex animi magni, veritatis blanditiis aliquam fuga. Ducimus quae rem culpa reprehenderit alias?</p>
       </div>
 

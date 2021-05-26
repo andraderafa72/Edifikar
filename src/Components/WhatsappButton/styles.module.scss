@@ -1,0 +1,31 @@
+.wppButton{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  box-shadow: 0px 4px 12px 0px rgba(35, 181, 181, 0.666);
+  border-radius: 1rem;
+
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .675rem 1rem;
+    background-color: var(--orange-2);
+    text-decoration: none;
+    color: white;
+    border-radius: 1rem;
+    transition: .7s;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    &:hover{
+      background-color: var(--orange);
+    }
+  }
+  img{
+    margin-left: .5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}

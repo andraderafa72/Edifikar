@@ -4,6 +4,7 @@ import { Contact } from '../Components/Contact';
 import { CountCard } from '../Components/CountCard';
 import { Discover } from '../Components/Discover';
 import { Professionals } from '../Components/Professionals';
+import { WhatsappButton } from '../Components/WhatsappButton';
 
 export default function Home(props) {
   return (
@@ -12,6 +13,7 @@ export default function Home(props) {
         <h1>Faça seu serviço com a Edifikar!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, natus? Ullam incidunt nemo deleniti! Et vitae ratione nesciunt aliquid quis laboriosam perferendis nisi, hic iusto perspiciatis sunt dolores suscipit distinctio.</p>
       </div>
+      <WhatsappButton />
     <main className={styles.container}>
 
       <CountCard />
