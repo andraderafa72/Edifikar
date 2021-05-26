@@ -114,3 +114,21 @@
     }
   }
 }
+
+@media (max-width: 768px){
+  .contactForm{
+    .gallery{
+      padding: 10% 2rem;
+      flex-direction: column;
+      .right{
+        margin-left: 0;
+      }
+      .right, .left{
+        flex-direction: row;
+      }
+      img{
+        max-width: 50%;
+      }
+    }
+  }
+}
