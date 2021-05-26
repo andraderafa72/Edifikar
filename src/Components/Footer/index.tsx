@@ -23,7 +23,7 @@ export function Footer () {
       </section>
 
       <section className={styles.down}>
-        <span>© 2021 E2 Engenharia. All rights reserved</span>
+        <span>© 2021 Edifikar. All rights reserved</span>
         <ul>
           <li>
             <a href="">

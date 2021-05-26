@@ -16,7 +16,7 @@ export function Header () {
           <a href="">Sobre nós</a>
           </li>
         <li>
-          <a href="">Serviços</a>
+          <a href="#services">Serviços</a>
         </li>
         <li>
           <a href="">Nosso trabalho</a>

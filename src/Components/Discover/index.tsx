@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 
 export function Discover () {
   return (
-    <section className={styles.discover}>
+    <section className={styles.discover} id="services">
       <div className={styles.circle}></div>
       <h2>Nossos Serviços</h2>
       <div className={styles.card}>

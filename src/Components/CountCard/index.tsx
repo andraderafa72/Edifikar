@@ -7,23 +7,23 @@ export function CountCard () {
     <div className={styles.countCardDiv}>
       <div>
         <img src="" alt=""/>
-        <h2>40+</h2>
-        <h4>Clientes satisfeitos</h4>
-      </div>
-      <div>
-        <img src="" alt=""/>
-        <h2>100+</h2>
-        <h4>Projetos concluidos</h4>
-      </div>
-      <div>
-        <img src="" alt=""/>
-        <h2>2100+</h2>
-        <h4>Horas de trabalho</h4>
+        <h2>20+</h2>
+        <h4>Anos de excelência</h4>
       </div>
       <div>
         <img src="" alt=""/>
         <h2>12+</h2>
-        <h4>Anos de excelência</h4>
+        <h4>Anos de experiência corporativa</h4>
+      </div>
+      <div>
+        <img src="" alt=""/>
+        <h2>50+</h2>
+        <h4>Clientes satisfeitos</h4>
+      </div>
+      <div>
+        <img src="" alt=""/>
+        <h2>500+</h2>
+        <h4>Serviços concluidos</h4>
       </div>
     </div>
   </section>

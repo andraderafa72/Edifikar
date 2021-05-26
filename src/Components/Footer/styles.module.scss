@@ -57,3 +57,21 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .footer{
+    .up{
+      ul{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 0;
+        width: 100%;
+        li{
+          a{
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
