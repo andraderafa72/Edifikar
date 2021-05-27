@@ -89,6 +89,7 @@
       padding-left: 0;
     }
     .gallery {
+      width: 100%;
       max-width: none;
       img{
         width: 100%;
@@ -118,7 +119,7 @@
 @media (max-width: 768px){
   .contactForm{
     .gallery{
-      width: 80%;
+      width: 100%;
       padding: 10% 2rem;
       flex-direction: column;
       .right{
@@ -127,11 +128,11 @@
       .right, .left{
         flex-direction: row;
         gap: 4%;
-      }
-      img{
-        width: 48%;
-        max-width: 8rem;
-        min-width: none;
+        img{
+          width: 10rem;
+          max-width: 10rem;
+          min-width: 0;
+        }
       }
     }
   }
