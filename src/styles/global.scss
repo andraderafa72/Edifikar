@@ -26,9 +26,12 @@
 }
 
 @media (max-width: 1080px) {
+  body{
+    overflow-x: hidden;
+  }
   html{
     font-size: 93.75%;
-    overflow-x: hidden;
+    overflow-x: visible;
   }
 }
 
