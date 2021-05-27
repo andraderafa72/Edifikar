@@ -4,9 +4,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 12.5rem 10% 0;
+  padding: 12.5rem 10% 8rem;
   gap: 1.25rem;
   overflow: hidden;
+
   .circle{
     position: absolute;
     top: 12.5%;

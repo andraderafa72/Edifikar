@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     .circle{
       position: absolute;
@@ -69,7 +70,7 @@
     .professional{
       .circle{
         top: 9%;
-        left: 4%;
+        left: 0%;
       }
     }
   }
