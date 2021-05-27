@@ -26,7 +26,7 @@ export function Footer () {
         <span>© 2021 Edifikar. All rights reserved</span>
         <ul>
           <li>
-            <a href="https://wa.me/5584996220052">
+            <a href="https://wa.me/5584987641132">
               <img src="/whatsapp.svg" alt=""/>
             </a>
           </li>

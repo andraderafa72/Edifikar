@@ -127,10 +127,10 @@
       }
       .right, .left{
         flex-direction: row;
-        gap: 4%;
+        gap: .5rem;
         img{
-          width: 8rem;
-          max-width: 8rem;
+          width: 9rem;
+          max-width: 9rem;
           min-width: 0;
         }
       }
