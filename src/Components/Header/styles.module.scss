@@ -63,13 +63,15 @@
     backdrop-filter: blur(10px);
     transition: .7s ease;
     animation: burguerAnim .7s ease;
+    opacity: 1;
   }
 
   .menu {
     position: absolute;
     top: 0;
     display: none;
-    right: -100vw;
+    right: 0;
+    opacity: 0;
   }
 
   .bgMenu {
