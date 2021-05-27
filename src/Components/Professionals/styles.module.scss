@@ -42,8 +42,10 @@
 
 @media (max-width:1080px) {
   .professionals{
+    padding: 12.5rem 5% 0;
+
     .professional{
-      max-width: 90%;
+      min-width: 100%;
       h3{
         font-size: 2rem;
       }
@@ -70,7 +72,7 @@
     .professional{
       .circle{
         top: 9%;
-        left: -15%;
+        left: -8%;
       }
     }
   }
