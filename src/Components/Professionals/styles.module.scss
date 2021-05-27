@@ -70,9 +70,13 @@
 @media (max-width:500px) {
   .professionals{
     .professional{
+      h3{
+        font-size: 1.8rem;
+        text-align: center;
+      }
       .circle{
         top: 9%;
-        left: -8%;
+        left: -5%;
       }
     }
   }

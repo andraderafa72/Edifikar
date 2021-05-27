@@ -118,6 +118,7 @@
 
 @media (max-width: 768px){
   .contactForm{
+    overflow: hidden;
     .gallery{
       width: 100%;
       padding: 10% 2rem;
@@ -129,8 +130,8 @@
         flex-direction: row;
         gap: .5rem;
         img{
-          width: 9rem;
-          max-width: 9rem;
+          width: 9.5rem;
+          max-width: 9.5rem;
           min-width: 0;
         }
       }
