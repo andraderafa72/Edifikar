@@ -9,7 +9,10 @@ export function Header () {
 
   return (
     <header className={styles.header}>
-      <img src="/logo.png" alt="Logo"/>
+      <div className={styles.logo}>
+        <span>Edifikar</span>
+        <span>Projetos e serviços</span>
+      </div>
 
       <ul>
         <li>

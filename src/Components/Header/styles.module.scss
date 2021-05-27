@@ -10,6 +10,17 @@
   background: transparent;
   justify-content: space-between;
 
+  .logo{
+    display: flex;
+    flex-direction: column;
+    span:first-child{
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      letter-spacing: .1rem;
+      font-size: 2rem;
+      line-height: 70%;
+    }
+  }
   ul {
     list-style: none;
     display: flex;

@@ -126,9 +126,12 @@
       }
       .right, .left{
         flex-direction: row;
+        gap: 1rem;
       }
       img{
-        width: 48%;
+        width: 8rem;
+        max-width: none;
+        min-width: none;
       }
     }
   }
