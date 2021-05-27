@@ -34,16 +34,16 @@ export function Header () {
           <div className={styles.bgMenu}></div>
           <ul className={styles.links}>
             <li>
-              <a href="#professionals">Sobre nós</a>
+              <a href="#professionals" onClick={() => setIsBurgerOpen(false)}>Sobre nós</a>
               </li>
             <li>
-              <a href="#services">Serviços</a>
+              <a href="#services" onClick={() => setIsBurgerOpen(false)}>Serviços</a>
             </li>
             <li>
-              <a href="">Nosso trabalho</a>
+              <a href="" onClick={() => setIsBurgerOpen(false)}>Nosso trabalho</a>
             </li>
             <li>
-              <a href="#contact">Contato</a>
+              <a href="#contact" onClick={() => setIsBurgerOpen(false)}>Contato</a>
             </li>
           </ul>
 
